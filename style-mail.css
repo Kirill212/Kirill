@@ -1,0 +1,38 @@
+/* Общее
+========================== */
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-size: 14px;
+    font-family: Montserrat, RobotoSlab;
+    -webkit-font-smoothing: antialiased;
+}
+
+a{
+    text-decoration: none;
+    font-size: 17px;
+}
+
+li{
+    list-style: none;
+}
+
+/* Container
+========================== */
+.container{
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Mail
+========================== */
+.mail{
+    text-align: center;
+}
